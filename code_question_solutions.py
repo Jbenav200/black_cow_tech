@@ -41,8 +41,8 @@ class SampleObjectWithConfig():
 # defining a list of allowed keys
 keys_allowed = ['age','year','month']
 # creating an instance of the SampleObjectWithConfig class and calling the return_a_and_b method.
-# sample_obj = SampleObjectWithConfig(dictionary=OBJ, keys_allowed=keys_allowed)
-# sample_obj.return_a_and_b()
+sample_obj = SampleObjectWithConfig(dictionary=OBJ, keys_allowed=keys_allowed)
+sample_obj.return_a_and_b()
 
 # This class is to illustrate my answer for question 2.
 class MyObject():
