@@ -47,7 +47,7 @@ keys_allowed = ['age','year','month']
 # This class is to illustrate my answer for question 2.
 class MyObject():
     def __init__(self, v:int) -> None:
-        # uncomment lines 49 - 51 to add type enforcement for self.__v
+        # uncomment lines 51 - 53 to add type enforcement for self.__v
         # if not isinstance(v, (int, float)):
         #     raise ValueError("v must be an integer or floating point variable.")
         # else:
