@@ -53,7 +53,7 @@ class MyObject():
         # else:
             self.__v = v
 
-    def __lt__(self, o:int| float) -> bool:
+    def __lt__(self, o: int | float) -> bool:
         if not isinstance(self.__v, (int, float)) or not isinstance(o.__v, (int, float)):
             raise TypeError("self.__v and o.__v must both be integer or floating point variables.")
         else:
